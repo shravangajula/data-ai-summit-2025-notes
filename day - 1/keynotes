@@ -1,40 +1,127 @@
-# Data + AI Summit 2025 – Day 1 Highlights 🧠✨
+# 📅 Data + AI Summit 2025 – Day 1 Notes
 
-Welcome to my personal notes and takeaways from **Day 1** of the **Data + AI Summit 2025**, hosted virtually by **Databricks**.
-
-## 🚀 Key Highlights
-
-### 🎙️ Keynote Speakers
-- **Ali Ghodsi** – CEO & Co-founder, Databricks  
-  - Introduced **Genie + Assistant** — integrating classical ML and Generative AI.
-  - Announced a **free edition of Databricks** for individual users and learners.
-
-- **Reynold Xin** – Co-founder, Databricks  
-  - Talked about **Lakebase**, a next-gen transactional engine over low-cost data lakes.
-
-- **Richard**, VP at Virgin Atlantic  
-  - Shared real-world impact of Databricks on aviation data systems.
-
-- **Holly Smith**  
-  - Discussed the integration with **Neon**: fully-managed Postgres with separated storage and compute.
-
-- **Neon Founder**  
-  - Deep dive into modern DevEx AI workflows.
-
-- **Justin (Databricks Apps)**  
-  - Demoed **Databricks Apps** and a new coding experience — *“Vibe coding”*.
-
-- **Live Demo: Agent Bricks**  
-  - Production-ready AI agents that learn from and adapt to your data.
-  - Built on **Mosaic AI**; available via **serverless GPU compute**.
-
-### 💼 Industry Leaders
-- **Mastercard** – Shared use cases in financial fraud detection and compliance.
-- **Jamie Dimon (JPMorgan Chase)** – A candid talk on AI's role in financial innovation and risk mitigation.
+**Date:** June 11, 2025  
+**Format:** Virtual  
+**Hosted by:** Databricks
 
 ---
 
-## 📌 Command Line Tips
+## 🔥 Keynote Highlights
+
+### 🧠 Ali Ghodsi – CEO & Co-founder, Databricks
+Ali opened the summit with a visionary talk on the evolution of data and AI:
+- **Genie & Assistant in Databricks**: 
+  - *Genie* is Databricks' internal AI assistant designed to help users write code, queries, and orchestrate workflows inside the Databricks workspace.
+  - It blends **classical machine learning** with **generative AI** to provide more grounded and accurate results.
+- **Free Edition of Databricks**:
+  - A major announcement: a **free version of Databricks** is now available to the public.
+  - It’s geared toward learners, hobbyists, and early startups looking to explore the Lakehouse ecosystem at zero cost.
+
+---
+
+## ✈️ Real-World Impact
+
+### ✈️ Virgin Atlantic Airways – Richard, VP
+- Shared how **Databricks** transformed their data infrastructure.
+- Emphasized how predictive analytics using the Lakehouse has improved operations and customer experience.
+- Case study involved fuel usage optimization and passenger service metrics.
+
+---
+
+## 🧱 Product & Tech Announcements
+
+### 🔁 Lakebase – by Reynold Xin (Co-founder)
+- **Lakebase** is a **new transactional database engine** that brings OLTP capabilities to data lakes.
+- It uses **low-cost object storage** as the foundation, enabling both real-time transactional workloads and large-scale analytics in one system.
+
+### 🔧 Git Tips from Databricks Dev Sessions
 ```bash
 git checkout -b <branch>
-# Tip shared during a dev session for working with Databricks Apps
+
+## 🐘 Databricks + Neon Integration
+
+### 🧑‍💻 Holly Smith – Developer Experience Lead
+Holly introduced a strategic collaboration between **Databricks** and **Neon**.
+
+🔹 **Neon** offers fully-managed **PostgreSQL** with **separation of storage and compute**, enabling:
+- ⚡ Faster autoscaling
+- 💰 Better cost-efficiency
+- 🔄 Smooth integration with data-intensive workloads
+
+🔧 **Modern DevEx AI workflows** can now leverage this architecture to build **lighter, scalable applications** more efficiently.
+
+### 👨‍💻 Neon Founder
+The founder of Neon shared the journey behind Neon’s architecture:
+- Traditional monolithic databases posed bottlenecks in high-throughput AI/ML workflows.
+- With separation of concerns (compute & storage), Neon enables **flexible scaling** and **simplified operations** for AI-driven development.
+
+---
+
+## 🧩 Databricks Apps – Demo by Justin
+
+### 💻 Vibe Coding
+- A **sleek new UI/UX** introduced inside Databricks.
+- Developers can now write and test applications in an intuitive, IDE-like environment.
+- Promotes **collaborative, visual, and streamlined development** native to the **Lakehouse platform**.
+
+### 📹 Live Demo: Databricks Apps
+- Featured **video call integration** and **real-time collaboration** between developers.
+- Highlighted how Databricks Apps supports:
+  - ⚙️ Quick iteration cycles
+  - 📦 Easy app deployment
+  - 🧪 Better lifecycle management
+
+---
+
+## 🤖 Agent Bricks – Built on Mosaic AI
+
+**Agent Bricks** are **production-grade AI agents** trained and optimized directly on your enterprise data within Databricks.
+
+✅ Use cases include:
+- 🧾 Customer Support Automation
+- 🔄 Workflow Orchestration
+- 📊 Business Insight Generation
+
+🧠 Built using **Mosaic AI**, Databricks' generative AI platform.
+
+🚀 **Big announcement**: **GPUs are now available in serverless compute**, allowing users to:
+- Run large language models and inference tasks without managing infrastructure.
+- Scale production AI solutions with minimal operational overhead.
+
+---
+
+## 💼 Industry Leadership Panels
+
+### 💳 Mastercard
+- Shared insights into how AI is being used in:
+  - 🕵️ Fraud Detection
+  - 📝 Regulatory Compliance
+  - 🔄 Real-time Transaction Monitoring
+- Praised Databricks for helping **streamline global fraud analytics pipelines**.
+
+### 🏦 JPMorgan Chase – Jamie Dimon (Chairman)
+Jamie Dimon highlighted:
+- The **strategic importance of AI in modern banking**.
+- A strong focus on:
+  - 🛡️ Ethical AI Development
+  - ⚖️ Risk Mitigation
+  - 🎯 Personalized Banking Experiences
+- Encouraged responsible innovation within AI for financial services.
+
+---
+
+## 📌 Summary
+
+Day 1 of the **Data + AI Summit 2025** showcased:
+- Major product launches (Agent Bricks, Lakebase)
+- Game-changing integrations (Neon + Databricks)
+- Live app development workflows
+- Real-world AI success stories from industry giants like **Mastercard** and **JPMorgan Chase**
+
+Looking forward to Day 2 for more innovations and deep dives into AI, data engineering, and enterprise use cases!
+
+---
+
+## 🧠 Tags:
+#DataAISummit #Databricks #GenAI #Lakehouse #AgentBricks #MosaicAI #NeonDB #Postgres  
+#Lakebase #AIinBanking #MLops #DataEngineering #AIIntegration
