@@ -1,40 +1,40 @@
-# Data + AI Summit 2025 – Day 1 Highlights 🧠✨
+# 📚 Data + AI Summit 2025 Notes
 
-Welcome to my personal notes and takeaways from **Day 1** of the **Data + AI Summit 2025**, hosted virtually by **Databricks**.
+Welcome to my personal notebook for the **Data + AI Summit 2025** held virtually by **Databricks** on **June 11–12, 2025**. This repository captures key highlights, product announcements, and personal takeaways from the sessions I attended.
 
-## 🚀 Key Highlights
+## 🗓️ Summit Overview
+The Data + AI Summit brings together thousands of data practitioners, engineers, scientists, and business leaders to explore the future of **data engineering**, **machine learning**, and **generative AI**.
 
-### 🎙️ Keynote Speakers
-- **Ali Ghodsi** – CEO & Co-founder, Databricks  
-  - Introduced **Genie + Assistant** — integrating classical ML and Generative AI.
-  - Announced a **free edition of Databricks** for individual users and learners.
+## 📂 Contents
 
-- **Reynold Xin** – Co-founder, Databricks  
-  - Talked about **Lakebase**, a next-gen transactional engine over low-cost data lakes.
+- [`day-1/README.md`](day-1/README.md) – Kickoff keynotes, product demos, and industry talks from leaders at Databricks, Virgin Atlantic, Mastercard, JPMorgan Chase, and more.
+- `day-2/` – Coming soon...
 
-- **Richard**, VP at Virgin Atlantic  
-  - Shared real-world impact of Databricks on aviation data systems.
+## 🌟 Technologies & Topics Covered
 
-- **Holly Smith**  
-  - Discussed the integration with **Neon**: fully-managed Postgres with separated storage and compute.
+- Lakehouse Architecture & Lakebase
+- Mosaic AI & Agent Bricks
+- Generative AI in production
+- Databricks Apps & Developer Experience
+- Integration with Neon (PostgreSQL separation of compute & storage)
+- Serverless GPU compute
+- Git + Databricks workflows
 
-- **Neon Founder**  
-  - Deep dive into modern DevEx AI workflows.
+## 💡 Why This Repo?
+I’m using this space to:
+- Document my learning experience from the summit
+- Share insights with the community
+- Revisit ideas for future projects and experiments
 
-- **Justin (Databricks Apps)**  
-  - Demoed **Databricks Apps** and a new coding experience — *“Vibe coding”*.
+Feel free to explore, fork, and connect!
 
-- **Live Demo: Agent Bricks**  
-  - Production-ready AI agents that learn from and adapt to your data.
-  - Built on **Mosaic AI**; available via **serverless GPU compute**.
+## 🔗 Connect With Me
 
-### 💼 Industry Leaders
-- **Mastercard** – Shared use cases in financial fraud detection and compliance.
-- **Jamie Dimon (JPMorgan Chase)** – A candid talk on AI's role in financial innovation and risk mitigation.
+- [LinkedIn](https://www.linkedin.com/in/shravangajula/)
+- [GitHub](https://github.com/shravangajula)
 
 ---
 
-## 📌 Command Line Tips
-```bash
-git checkout -b <branch>
-# Tip shared during a dev session for working with Databricks Apps
+_Stay tuned for updates from Day 2!_
+
+#DataAISummit #Databricks #AI #GenerativeAI #MosaicAI #DataEngineering #Lakehouse
