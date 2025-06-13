@@ -1,0 +1,134 @@
+# 📅 Data + AI Summit 2025 – Day 2 Notes
+
+**Date:** June 12, 2025  
+**Format:** Virtual  
+**Hosted by:** Databricks
+
+---
+
+## 🧭 What's Next for Unity Catalog?
+
+### 👨‍🔬 Matei Zaharia – Co-founder, Databricks
+Matei kicked off Day 2 by diving deep into the future of **Unity Catalog**, Databricks’ unified governance layer:
+
+- Enhanced **governance, discoverability**, and **lineage tracking** across all data assets.
+- Broader support for **open table formats** and new integrations.
+- Strengthening interoperability between **AI/ML pipelines** and **data governance controls**.
+
+---
+
+## ❄️ Iceberg Managed Tables
+
+### 👩‍💻 Michelle Leon – Live Demo
+Michelle showcased **Iceberg Managed Tables**, now natively supported in Databricks.
+
+Key Takeaways:
+- Optimized for **high-performance analytics** on large, streaming, and historical datasets.
+- Built-in support for **schema evolution**, **ACID transactions**, and **partition pruning**.
+- Easy to manage via **Databricks UI** or **SQL/Python APIs**.
+- **Unity Catalog Integration** provides consistent security and auditing.
+
+---
+
+## 📊 Unity Catalog Metrics & KPI Discovery
+
+### 💡 Keegan Dubbs – Business KPIs in Unity Catalog
+Keegan demonstrated how Unity Catalog now supports **business KPIs** directly on the **Discover page**.
+
+- Analysts and business users can now:
+  - Search KPIs like sales, revenue, churn, etc.
+  - Get **lineage-aware insights** on key business metrics.
+  - Easily plug into dashboards and downstream reports.
+- Encourages a more **self-service analytics culture** while maintaining governance.
+
+---
+
+## ⚡ Apache Spark 4.0 – What’s New?
+
+### 🧠 Michael Armbrust – Distinguished Engineer, Databricks
+Michael introduced the major innovations in **Apache Spark 4.0**:
+
+- **Real-Time Mode**:
+  - Spark can now operate in **low-latency streaming mode** natively.
+  - Use cases: fraud detection, recommendation systems, real-time dashboards.
+- **DLT Integration**:
+  - DLT (Delta Live Tables) now hides the complexity of modern data engineering.
+  - Better fault tolerance, automatic retries, and easier debugging.
+- Enhanced **adaptive query execution** and **performance gains** across the board.
+
+---
+
+## 🧱 Spark Declarative Pipelines
+
+### 🛠️ Bilal Aslam
+Bilal introduced a **new way to write pipelines** in Spark using **declarative syntax**:
+
+- Define **what** you want, not **how** to do it.
+- Simplifies pipeline creation by abstracting the logic from execution mechanics.
+- Enables automated optimization and scaling.
+
+---
+
+## 🔄 ZeroBus – Direct Write API
+
+Databricks unveiled **ZeroBus**, a **Direct Write API** for simplified and high-speed ingestion:
+
+- No intermediary steps or file landing required.
+- Ideal for integrating with real-time data producers and streaming pipelines.
+- Tight coupling with Unity Catalog and Delta Lake for immediate discoverability.
+
+---
+
+## 🧠 Lakeflow Designer – No-Code ETL
+
+Databricks introduced the **Lakeflow Designer**, a powerful new IDE for building ETL pipelines:
+
+- Visual pipeline creation with a **drag-and-drop interface**.
+- Ideal for **data analysts and engineers** who want to avoid boilerplate code.
+- Supports production-grade transformations, scheduling, and error-handling.
+
+---
+
+## 🧪 Next-Gen Data Warehouse Experience
+
+- Databricks is evolving the **Lakehouse** into a **next-generation data warehouse**:
+  - Seamless blend of SQL + AI + BI.
+  - Serverless performance with flexible data formats (Delta, Iceberg, Parquet).
+  - Real-time pipelines with low-latency query support.
+
+---
+
+## 📈 AI-Powered BI & Marketing Use Case
+
+### 💬 Miranda Luna – AI/BI Demo
+
+Miranda demonstrated how **Databricks is merging AI with BI** through an interactive demo on **Marketing Engagement Performance**:
+
+- Intuitive UI allows business teams to interact with dashboards and tweak KPIs.
+- AI assists in suggesting:
+  - Audience segmentation
+  - Campaign optimization strategies
+  - Personalized targeting approaches
+- Showed a **live feedback loop** of predictions, results, and updated models.
+
+---
+
+## 📌 Summary
+
+Day 2 of the Data + AI Summit 2025 focused on **governance, real-time processing, pipeline simplicity, and AI-powered insights**.
+
+Major announcements included:
+- Unity Catalog advancements and KPI support
+- Iceberg table management
+- Apache Spark 4.0 with real-time streaming
+- Declarative Pipelines & ZeroBus API
+- No-code Lakeflow Designer for visual ETL
+- Business-focused AI/BI use cases
+
+Looking forward to even more from the upcoming sessions and product rollouts!
+
+---
+
+## 🧠 Tags:
+#DataAISummit #Databricks #UnityCatalog #IcebergTables #Spark4 #DLT #Zerobus #Lakeflow  
+#DeclarativePipelines #AIforBI #NoCodeETL #RealTimeAnalytics #MLOps #DataGovernance
